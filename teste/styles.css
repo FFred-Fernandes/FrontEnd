@@ -1,0 +1,17 @@
+body{
+    background-color: #c0cf6a;
+}
+h1{
+    text-align: center;
+}
+div{
+    background-color: rgb(255, 187, 0);
+}
+
+.coitainer-Ingredientes{
+ font-size: 2rem;
+}
+
+/*Unidades de Medida*/
+/*px - unidades
+/*rem - unidade de medida relativa
