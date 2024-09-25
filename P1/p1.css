@@ -1,0 +1,459 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(200deg, #270623, #c746ab);
+    gap: 4rem;
+}
+
+.navibar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #a8001c;
+    border: 5px solid #000;
+}
+
+.navibar h1 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.explicacao {
+    text-align: center;
+    height: 100vh;
+}
+
+.explicacao h1 {
+    font-size: 38px;
+    margin-bottom: 55px;
+    color: white;
+    text-shadow:
+        2px 2px 0px black,
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+.explicacao p {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    text-shadow:
+        2px 2px 0px black,
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+
+.divas h1 {
+    margin-top: -550px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+hr {
+    height: 10px;
+    border-top: 10px solid black;
+    background-color: white;
+    margin: 80px 55px;
+}
+
+.artistas1 {
+    margin-top: -350px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.madonna,
+.beyoncé,
+.adele {
+    height: 450px !important;
+    background-color: #a8001c;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.madonna img {
+    height: 250px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.madonna h3 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.madonna a {
+    color: white;
+    margin-left: 100px;
+}
+
+.beyoncé img {
+    height: 250px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.beyoncé h3 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.beyoncé a {
+    color: white;
+    margin-left: 100px;
+}
+
+.adele img {
+    height: 250px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.adele h3 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.adele a {
+    color: white;
+    margin-left: 100px;
+}
+
+.artistas2 {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ariana,
+.gaga,
+.britney {
+    height: 450px !important;
+    background-color: #a8001c;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.ariana {
+    height: 10rem;
+}
+
+.ariana img {
+    height: 250px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.ariana h3 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.ariana a {
+    color: white;
+    margin-left: 100px;
+}
+
+.gaga img {
+    height: 250px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.gaga h3 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.gaga a {
+    color: white;
+    margin-left: 100px;
+}
+
+.britney img {
+    height: 250px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+}
+
+.britney h3 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.britney a {
+    color: white;
+    margin-left: 100px;
+}
+
+.sobre h1 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+hr {
+    height: 10px;
+    border-top: 10px solid black;
+    background-color: white;
+    margin: 80px 55px;
+}
+
+.eu {
+    padding: 3rem;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #a8001c;
+    border: 5px solid #000;
+}
+
+.eu img {
+    width: 300px;
+    height: 350px !important;
+    object-fit: cover !important;
+    width: 250px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.eu h2 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+.titulo h1 {
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+hr {
+    height: 10px;
+    border-top: 10px solid black;
+    background-color: white;
+    margin: 80px 55px;
+}
+
+.newsletter {
+    margin-top: -50px !important;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    min-height: 500px;
+    background-color: #a8001c;
+}
+
+.newsletter h1 {
+    margin-top: 50px !important;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-size: 1.5rem !important;
+    margin-top: 50px !important;
+    font-size: 1rem;
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 1rem;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+
+}
+
+label {
+    padding-bottom: 3rem;
+}
+
+input[type="checkbox"] {
+    transform: scale(2.2);
+    cursor: pointer;
+}
+
+button {
+    margin-top: 50px !important;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #746a6a;
+    border: none;
+    font-size: 1rem;
+    color: antiquewhite;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    background-color: #a8001c;
+    border: 5px solid #000;
+    font-size: 11px;
+}
+
+.rodapé p {
+    font-size: 22px;
+    color: white;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0px black,
+        -2px 2px 0px black;
+    margin-left: 50px;
+}
+
+.rodapé {
+    width: 95%;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.social a {
+    margin-left: 10px;
+}

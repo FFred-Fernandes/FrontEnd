@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.TOPO{
+    display: flex;
+    background-color: lime;
+    padding: 42px;
+    justify-content: space-between;
+}
+
+.CONTEUDO{
+    display: flex;
+    background-color: aqua;
+    padding: 500px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.RODAPE{
+    display: flex;
+    background-color: lime;
+    padding: 42px;
+    justify-content: space-between;
+}
